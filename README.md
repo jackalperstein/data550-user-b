@@ -104,7 +104,7 @@ random_numbers4 <- rbinom(100, 1, 0.25)
 	- the contents of the section should be exactly the same as the other sections
 	- e.g., *User B* can copy/paste the "Random numbers 3" section and appropriately modify its contents
 6. Confirm that *User B* can build the report (e.g., by executing `make report.html`)
-7. Once *User B* is confident that `report.html` is building properly, they should appropriately use `git add` and `git commit` to make a new commit along the `binomial` branch that includes updates to *both* `code/01_make_random_numbers.R` *and* `report.Rmd`
+7. Once *User B* is confident that `report.html` is building properly, they should appropriately use `git add` and `git commit` to make a new commit along the `binomial` branch that includes updates to *both* `code/01_make_output.R` *and* `report.Rmd`
 	- include a meaningful commit message
 8. Push the `binomial` branch to GitHub.
 	- `git push origin binomial`
@@ -164,7 +164,7 @@ random_numbers5 <- rgeom(100, 0.25)
 	- the contents of the section should be exactly the same as the other sections
 	- e.g., *User A* can copy/paste the "Random numbers 3" section and appropriately modify its contents
 6. Confirm that *User A* can build the report (e.g., by executing `make report.html`)
-7. Once *User A* is confident that `report.html` is building properly, they should appropriately use `git add` and `git commit` to make a new commit along the `geometric` branch that includes updates to *both* `code/01_make_random_numbers.R` *and* `report.Rmd`
+7. Once *User A* is confident that `report.html` is building properly, they should appropriately use `git add` and `git commit` to make a new commit along the `geometric` branch that includes updates to *both* `code/01_make_output.R` *and* `report.Rmd`
 	- include a meaningful commit message
 8. *User A* should merge the `geometric` branch into `main`.
 	- `git checkout main`
